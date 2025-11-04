@@ -31,4 +31,6 @@ javac src/main/java/Validador.java -d out
 3. Execute:
 java -cp out Validador
 
+---
+
 Autor: T.Jacobelli
