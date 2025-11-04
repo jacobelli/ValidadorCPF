@@ -13,29 +13,27 @@ O projeto está sendo desenvolvido com foco em **QA**, incluindo testes manuais,
 ---
 
 ## Estrutura do Projeto
-
-ValidadorCPF
-  │
-
-  ├─ src/main/java/Validador.java # Código-fonte principal
-  
-  ├─ test/java/ValidadorTest.java # Testes unitários (JUnit)
-
-  ├─ docs/CasosDeTeste.xlsx # Planilha de casos de teste
-
-  ├─ README.md # Este arquivo
-
-  └─ .gitignore # Arquivo para ignorar arquivos desnecessários no GitHub
-
----
-
+```
+ValidadorCPF/
+│
+├─ src/main/java/Validador.java       # Código-fonte principal
+├─ test/java/ValidadorTest.java       # Testes unitários (JUnit)
+├─ docs/CasosDeTeste                  # Planilha de casos de teste
+├─ README.md                          # Este arquivo
+└─ .gitignore                         # Arquivo para ignorar arquivos desnecessários no GitHub
+```
 ## Como rodar
 1. Abra o terminal na pasta raiz do projeto.  
 2. Compile o código:
+```
 javac src/main/java/Validador.java -d out
+```
 3. Execute:
+```
 java -cp out Validador
+```
 
 ---
 
-Autor: T.Jacobelli
+**Autor:**  
+T. Jacobelli
