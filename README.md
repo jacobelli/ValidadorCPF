@@ -27,10 +27,8 @@ ValidadorCPF/
 ## Como rodar
 1. Abra o terminal na pasta raiz do projeto.  
 2. Compile o código:
-```bash
 javac src/main/java/Validador.java -d out
-3. Execute
-```bash
+3. Execute:
 java -cp out Validador
 
 Autor: T.Jacobelli
