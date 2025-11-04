@@ -14,13 +14,18 @@ O projeto está sendo desenvolvido com foco em **QA**, incluindo testes manuais,
 
 ## Estrutura do Projeto
 
-ValidadorCPF/
-│
-├─ src/main/java/Validador.java # Código-fonte principal
-├─ test/java/ValidadorTest.java # Testes unitários (JUnit)
-├─ docs/CasosDeTeste.xlsx # Planilha de casos de teste
-├─ README.md # Este arquivo
-└─ .gitignore # Arquivo para ignorar arquivos desnecessários no GitHub
+ValidadorCPF
+  │
+
+  ├─ src/main/java/Validador.java # Código-fonte principal
+  
+  ├─ test/java/ValidadorTest.java # Testes unitários (JUnit)
+
+  ├─ docs/CasosDeTeste.xlsx # Planilha de casos de teste
+
+  ├─ README.md # Este arquivo
+
+  └─ .gitignore # Arquivo para ignorar arquivos desnecessários no GitHub
 
 ---
 
