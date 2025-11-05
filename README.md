@@ -1,13 +1,12 @@
 ## Descrição
-Projeto em Java que vai validar números de CPF e CNPJ.  
-Permitindo verificar se um CPF/CNPJ é válido ou inválido, incluindo testes de formato e lógica de dígitos verificadores.  
+Projeto em Java que vai validar números de CPF.
+Permitindo verificar se um CPF é válido ou inválido, incluindo testes de formato e lógica de dígitos verificadores.  
 O projeto está sendo desenvolvido com foco em **QA**, incluindo testes manuais, automatizados e documentação.
 
 ---
 
 ## Funcionalidades
-- Validação de CPF (11 dígitos)  
-- Validação de CNPJ (14 dígitos)  
+- Validação de CPF (11 dígitos)    
 - Tratamento de entradas inválidas (letras, símbolos, todos os dígitos iguais)
 
 ---
