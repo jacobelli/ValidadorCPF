@@ -1,13 +1,3 @@
-# Arquivos compilados
+out/
 *.class
 
-# Pasta de build/out
-out/
-bin/
-
-# Arquivos temporários do VSCode
-.vscode/
-
-# Arquivos de sistema
-.DS_Store
-Thumbs.db

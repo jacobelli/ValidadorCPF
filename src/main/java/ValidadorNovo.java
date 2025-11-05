@@ -1,8 +1,9 @@
+
 import java.util.Scanner;
 
-public class Validador {
+public class ValidadorNovo {
     public static void main(String[] args) {
-        System.out.println("Validador de CPF iniciado...\n");
+        System.out.println("Validador de CPF iniciado...");
 
         Scanner entrada = new Scanner(System.in);
         String cpf;
@@ -30,17 +31,17 @@ public class Validador {
 
         // 1.2 - Caracteres inválidos
         if (!cpf.matches("^[0-9]+$")) {
-            return "O CPF não pode conter símbolos, espaços ou letras. Digite apenas números (ex: 12345678909).";
+            return "O CPF nao pode conter simbolos, espacos ou letras. Digite apenas numerais";
         }
 
         // 1.3 - Tamanho incorreto
         if (cpf.length() != 11) {
-            return "O CPF deve conter exatamente 11 dígitos. Você digitou " + cpf.length() + ".";
+            return "O CPF deve conter exatamente 11 digitos. Você digitou " + cpf.length() + ".";
         }
 
         // 1.4 - Dígitos iguais
         if (cpf.matches("(\\d)\\1{10}")) {
-            return "Este CPF é inválido: todos os dígitos são iguais.";
+            return "Este CPF e invalido, todos os digitos sao iguais.";
         }
 
         try {
@@ -63,9 +64,9 @@ public class Validador {
 
             // 2.3 - Verificação final
             if (digito1 == (cpf.charAt(9) - '0') && digito2 == (cpf.charAt(10) - '0')) {
-                return "Este CPF é válido! (" + cpf + ")";
+                return "Este CPF e valido! (" + cpf + ")";
             } else {
-                return "Este CPF é inválido: os dígitos verificadores não conferem.";
+                return "Este CPF e invalido, os digitos verificadores nao conferem.";
             }
 
         } catch (Exception e) {
